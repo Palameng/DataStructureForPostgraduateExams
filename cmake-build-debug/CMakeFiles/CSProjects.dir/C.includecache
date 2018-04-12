@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/CSProjects/BaseHeader/base.h
+
+/cygdrive/d/CSProjects/Unit_1/unit_1.c
+unit_1.h
+/cygdrive/d/CSProjects/Unit_1/unit_1.h
+../BaseHeader/base.h
+/cygdrive/d/CSProjects/BaseHeader/base.h
+
+/cygdrive/d/CSProjects/Unit_1/unit_1.h
+
+/cygdrive/d/CSProjects/main.c
+stdio.h
+-
+stdlib.h
+-
+Unit_1/unit_1.h
+/cygdrive/d/CSProjects/Unit_1/unit_1.h
+
