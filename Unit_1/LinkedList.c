@@ -8,7 +8,7 @@
  * A和B是两个单链表（带头结点），其中元素递增有序。设计一个算法，将A和B归并成一个按元素值非递减有序链表C，C由A、B中的
  * 节点组成。
  * */
-void merge(SLNode *A, SLNode *B, SLNode *C)
+void SLmerge(SLNode *A, SLNode *B, SLNode *C)
 {
     //TO DO
 }
@@ -39,6 +39,30 @@ void createlistR(SLNode *C, int *a, int n)
     r->next = NULL;
 }
 
+void createDlistR(DLNode *L, int *a, int n)
+{
+    DLNode *s, *r;
+
+    L = (DLNode *)malloc(sizeof(DLNode));
+    L->prior = NULL;
+    L->next = NULL;
+
+    r = L;
+
+    for (int i = 0; i < n; ++i)
+    {
+        s = (DLNode *)malloc(sizeof(DLNode));
+        s->data = a[i];
+
+        r->next = s;
+        s->prior = r;
+        r = s;
+    }
+
+    s->next = NULL;
+}
+
+
 /*
  * 头插法，即插入的新节点在头结点的后面，在所有旧节点的前面
  * 1 声明头结点，并初始化next=NULL
@@ -61,7 +85,7 @@ void createlistF(SLNode *C, int *a, int n)
 }
 
 /*
- * 查找节点并删除（根据节点的内容查找匹配）
+ * 查找节点/删除（根据节点的内容查找匹配）
  * 1 查找比较
  * 2 如果没有则输入FALSE
  * 3 如果找到首先给删除节点一个q标记,之后处理 删除节点的前驱 和 删除节点的后继 的链接
@@ -90,4 +114,47 @@ int fidAndDelete(SLNode *C, int x)
         return TRUE;
     }
 
+}
+
+/*
+ * 双向链表的查找操作
+ */
+DLNode* findNode(DLNode *C, int x)
+{
+    DLNode *p = C->next;
+
+    while(p != NULL)
+    {
+        if(p->data == x)
+            break;
+        p = p->next;
+    }
+
+    return p;
+}
+
+/*
+ * 双向链表的删除操作，传入的node可有上面的findNode获取
+ */
+void deleteDLNode(DLNode *node)
+{
+    DLNode *p, *q;
+
+    p = node->prior;
+    q = node;
+
+    p->next = q->next;
+    q->next->prior = p;
+    free(q);
+}
+
+/*
+ * 双向链表根据位置点插入，位置点为p, 插入的点为node
+ */
+void insertDLNode(DLNode *p, DLNode *node)
+{
+    node->next = p->next;
+    node->prior = p;
+    node->next->prior = node;
+    p->next = node;
 }
