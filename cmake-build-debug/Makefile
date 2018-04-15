@@ -123,59 +123,86 @@ CSProjects/fast:
 	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/build
 .PHONY : CSProjects/fast
 
-Unit_1/LinkedList.o: Unit_1/LinkedList.c.o
+Unit_2/LinkedList.o: Unit_2/LinkedList.c.o
 
-.PHONY : Unit_1/LinkedList.o
-
-# target to build an object file
-Unit_1/LinkedList.c.o:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o
-.PHONY : Unit_1/LinkedList.c.o
-
-Unit_1/LinkedList.i: Unit_1/LinkedList.c.i
-
-.PHONY : Unit_1/LinkedList.i
-
-# target to preprocess a source file
-Unit_1/LinkedList.c.i:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.i
-.PHONY : Unit_1/LinkedList.c.i
-
-Unit_1/LinkedList.s: Unit_1/LinkedList.c.s
-
-.PHONY : Unit_1/LinkedList.s
-
-# target to generate assembly for a file
-Unit_1/LinkedList.c.s:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.s
-.PHONY : Unit_1/LinkedList.c.s
-
-Unit_1/unit_1.o: Unit_1/unit_1.c.o
-
-.PHONY : Unit_1/unit_1.o
+.PHONY : Unit_2/LinkedList.o
 
 # target to build an object file
-Unit_1/unit_1.c.o:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o
-.PHONY : Unit_1/unit_1.c.o
+Unit_2/LinkedList.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o
+.PHONY : Unit_2/LinkedList.c.o
 
-Unit_1/unit_1.i: Unit_1/unit_1.c.i
+Unit_2/LinkedList.i: Unit_2/LinkedList.c.i
 
-.PHONY : Unit_1/unit_1.i
+.PHONY : Unit_2/LinkedList.i
 
 # target to preprocess a source file
-Unit_1/unit_1.c.i:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.i
-.PHONY : Unit_1/unit_1.c.i
+Unit_2/LinkedList.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.i
+.PHONY : Unit_2/LinkedList.c.i
 
-Unit_1/unit_1.s: Unit_1/unit_1.c.s
+Unit_2/LinkedList.s: Unit_2/LinkedList.c.s
 
-.PHONY : Unit_1/unit_1.s
+.PHONY : Unit_2/LinkedList.s
 
 # target to generate assembly for a file
-Unit_1/unit_1.c.s:
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.s
-.PHONY : Unit_1/unit_1.c.s
+Unit_2/LinkedList.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.s
+.PHONY : Unit_2/LinkedList.c.s
+
+Unit_2/OrderList.o: Unit_2/OrderList.c.o
+
+.PHONY : Unit_2/OrderList.o
+
+# target to build an object file
+Unit_2/OrderList.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o
+.PHONY : Unit_2/OrderList.c.o
+
+Unit_2/OrderList.i: Unit_2/OrderList.c.i
+
+.PHONY : Unit_2/OrderList.i
+
+# target to preprocess a source file
+Unit_2/OrderList.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.i
+.PHONY : Unit_2/OrderList.c.i
+
+Unit_2/OrderList.s: Unit_2/OrderList.c.s
+
+.PHONY : Unit_2/OrderList.s
+
+# target to generate assembly for a file
+Unit_2/OrderList.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.s
+.PHONY : Unit_2/OrderList.c.s
+
+Unit_3/StackAndQueue.o: Unit_3/StackAndQueue.c.o
+
+.PHONY : Unit_3/StackAndQueue.o
+
+# target to build an object file
+Unit_3/StackAndQueue.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o
+.PHONY : Unit_3/StackAndQueue.c.o
+
+Unit_3/StackAndQueue.i: Unit_3/StackAndQueue.c.i
+
+.PHONY : Unit_3/StackAndQueue.i
+
+# target to preprocess a source file
+Unit_3/StackAndQueue.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.i
+.PHONY : Unit_3/StackAndQueue.c.i
+
+Unit_3/StackAndQueue.s: Unit_3/StackAndQueue.c.s
+
+.PHONY : Unit_3/StackAndQueue.s
+
+# target to generate assembly for a file
+Unit_3/StackAndQueue.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.s
+.PHONY : Unit_3/StackAndQueue.c.s
 
 main.o: main.c.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CSProjects"
-	@echo "... Unit_1/LinkedList.o"
-	@echo "... Unit_1/LinkedList.i"
-	@echo "... Unit_1/LinkedList.s"
-	@echo "... Unit_1/unit_1.o"
-	@echo "... Unit_1/unit_1.i"
-	@echo "... Unit_1/unit_1.s"
+	@echo "... Unit_2/LinkedList.o"
+	@echo "... Unit_2/LinkedList.i"
+	@echo "... Unit_2/LinkedList.s"
+	@echo "... Unit_2/OrderList.o"
+	@echo "... Unit_2/OrderList.i"
+	@echo "... Unit_2/OrderList.s"
+	@echo "... Unit_3/StackAndQueue.o"
+	@echo "... Unit_3/StackAndQueue.i"
+	@echo "... Unit_3/StackAndQueue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

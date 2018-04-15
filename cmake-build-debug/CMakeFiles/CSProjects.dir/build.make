@@ -81,69 +81,95 @@ CMakeFiles/CSProjects.dir/main.c.o.provides: CMakeFiles/CSProjects.dir/main.c.o.
 CMakeFiles/CSProjects.dir/main.c.o.provides.build: CMakeFiles/CSProjects.dir/main.c.o
 
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o: CMakeFiles/CSProjects.dir/flags.make
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o: ../Unit_1/unit_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o   -c /cygdrive/d/CSProjects/Unit_1/unit_1.c
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o: CMakeFiles/CSProjects.dir/flags.make
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o: ../Unit_2/OrderList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o   -c /cygdrive/d/CSProjects/Unit_2/OrderList.c
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.i"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_1/unit_1.c > CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.i
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.i"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_2/OrderList.c > CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.i
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.s"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_1/unit_1.c -o CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.s
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.s"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_2/OrderList.c -o CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.s
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.requires:
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.requires:
 
-.PHONY : CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.requires
+.PHONY : CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.requires
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.provides: CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.requires
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.provides.build
-.PHONY : CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.provides
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.provides: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.requires
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.provides.build
+.PHONY : CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.provides
 
-CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o
+CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o
 
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o: CMakeFiles/CSProjects.dir/flags.make
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o: ../Unit_1/LinkedList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o   -c /cygdrive/d/CSProjects/Unit_1/LinkedList.c
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o: CMakeFiles/CSProjects.dir/flags.make
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o: ../Unit_2/LinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o   -c /cygdrive/d/CSProjects/Unit_2/LinkedList.c
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.i"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_1/LinkedList.c > CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.i
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.i"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_2/LinkedList.c > CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.i
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.s"
-	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_1/LinkedList.c -o CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.s
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.s"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_2/LinkedList.c -o CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.s
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.requires:
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.requires:
 
-.PHONY : CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.requires
+.PHONY : CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.requires
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.provides: CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.requires
-	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.provides.build
-.PHONY : CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.provides
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.provides: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.requires
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.provides.build
+.PHONY : CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.provides
 
-CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o
+CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o
+
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o: CMakeFiles/CSProjects.dir/flags.make
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o: ../Unit_3/StackAndQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o   -c /cygdrive/d/CSProjects/Unit_3/StackAndQueue.c
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.i"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_3/StackAndQueue.c > CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.i
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.s"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_3/StackAndQueue.c -o CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.s
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.requires:
+
+.PHONY : CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.requires
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.provides: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.requires
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.provides.build
+.PHONY : CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.provides
+
+CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o
 
 
 # Object files for target CSProjects
 CSProjects_OBJECTS = \
 "CMakeFiles/CSProjects.dir/main.c.o" \
-"CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o" \
-"CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o"
+"CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o" \
+"CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o" \
+"CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o"
 
 # External object files for target CSProjects
 CSProjects_EXTERNAL_OBJECTS =
 
 CSProjects.exe: CMakeFiles/CSProjects.dir/main.c.o
-CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o
-CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o
+CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o
+CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o
+CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o
 CSProjects.exe: CMakeFiles/CSProjects.dir/build.make
 CSProjects.exe: CMakeFiles/CSProjects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable CSProjects.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable CSProjects.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSProjects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +178,9 @@ CMakeFiles/CSProjects.dir/build: CSProjects.exe
 .PHONY : CMakeFiles/CSProjects.dir/build
 
 CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/main.c.o.requires
-CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_1/unit_1.c.o.requires
-CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o.requires
+CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o.requires
+CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.requires
+CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.requires
 
 .PHONY : CMakeFiles/CSProjects.dir/requires
 

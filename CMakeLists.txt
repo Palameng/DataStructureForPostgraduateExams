@@ -3,4 +3,4 @@ project(CSProjects C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CSProjects main.c Unit_1/unit_1.h Unit_1/unit_1.c BaseHeader/base.h Unit_1/LinkedList.h Unit_1/LinkedList.c)
+add_executable(CSProjects main.c Unit_2/OrderList.h Unit_2/OrderList.c BaseHeader/base.h Unit_2/LinkedList.h Unit_2/LinkedList.c Unit_3/StackAndQueue.c Unit_3/StackAndQueue.h)
