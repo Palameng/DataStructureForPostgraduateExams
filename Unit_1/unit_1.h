@@ -4,13 +4,10 @@
 
 #ifndef CSPROJECTS_UNIT_1_H
 #define CSPROJECTS_UNIT_1_H
-#define MAXSIZE_SQLIST 20
 
-typedef struct Node
-{
-    int data;
-    struct Node * next;
-}Node;
+#include "../BaseHeader/base.h"
+
+#define MAXSIZE_SQLIST 20
 
 
 typedef struct BTNode

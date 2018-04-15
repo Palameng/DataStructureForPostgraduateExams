@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Unit_1/unit_1.h"
+#include "Unit_1/LinkedList.h"
 
 #define N 20
 
 int main() {
 
     int *p;
-    Node *pnode;
+    SLNode *pnode;
     BTNode *pbtnode;
 
     int result;
@@ -27,7 +28,7 @@ int main() {
     printf("get num is: %d\n", result);
 
     p = (int*)malloc(N * sizeof(int));
-    pnode = (Node*)malloc(sizeof(Node));
+    pnode = (SLNode*)malloc(sizeof(SLNode));
     pbtnode = (BTNode*)malloc(sizeof(BTNode));
 
     free(p);

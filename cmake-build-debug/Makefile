@@ -123,6 +123,33 @@ CSProjects/fast:
 	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/build
 .PHONY : CSProjects/fast
 
+Unit_1/LinkedList.o: Unit_1/LinkedList.c.o
+
+.PHONY : Unit_1/LinkedList.o
+
+# target to build an object file
+Unit_1/LinkedList.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.o
+.PHONY : Unit_1/LinkedList.c.o
+
+Unit_1/LinkedList.i: Unit_1/LinkedList.c.i
+
+.PHONY : Unit_1/LinkedList.i
+
+# target to preprocess a source file
+Unit_1/LinkedList.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.i
+.PHONY : Unit_1/LinkedList.c.i
+
+Unit_1/LinkedList.s: Unit_1/LinkedList.c.s
+
+.PHONY : Unit_1/LinkedList.s
+
+# target to generate assembly for a file
+Unit_1/LinkedList.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_1/LinkedList.c.s
+.PHONY : Unit_1/LinkedList.c.s
+
 Unit_1/unit_1.o: Unit_1/unit_1.c.o
 
 .PHONY : Unit_1/unit_1.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CSProjects"
+	@echo "... Unit_1/LinkedList.o"
+	@echo "... Unit_1/LinkedList.i"
+	@echo "... Unit_1/LinkedList.s"
 	@echo "... Unit_1/unit_1.o"
 	@echo "... Unit_1/unit_1.i"
 	@echo "... Unit_1/unit_1.s"
