@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /cygdrive/d/CSProjects/BaseHeader/base.h
+stdlib.h
+/cygdrive/d/CSProjects/BaseHeader/stdlib.h
 
 /cygdrive/d/CSProjects/Unit_2/LinkedList.c
 stdlib.h
@@ -27,6 +29,12 @@ OrderList.h
 /cygdrive/d/CSProjects/BaseHeader/base.h
 
 /cygdrive/d/CSProjects/Unit_3/StackAndQueue.c
+StackAndQueue.h
+/cygdrive/d/CSProjects/Unit_3/StackAndQueue.h
+
+/cygdrive/d/CSProjects/Unit_3/StackAndQueue.h
+../BaseHeader/base.h
+/cygdrive/d/CSProjects/BaseHeader/base.h
 
 /cygdrive/d/CSProjects/main.c
 stdio.h

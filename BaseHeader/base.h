@@ -5,6 +5,8 @@
 #ifndef CSPROJECTS_BASE_H
 #define CSPROJECTS_BASE_H
 
+#include "stdlib.h"
+
 #define TRUE    1
 #define FLASE   0
 
