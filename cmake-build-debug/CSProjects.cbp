@@ -95,6 +95,12 @@
 		<Unit filename="/cygdrive/d/CSProjects/Unit_3/StackAndQueue.h">
 			<Option target="CSProjects"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/CSProjects/Unit_4/String.c">
+			<Option target="CSProjects"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CSProjects/Unit_4/String.h">
+			<Option target="CSProjects"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/CSProjects/main.c">
 			<Option target="CSProjects"/>
 		</Unit>

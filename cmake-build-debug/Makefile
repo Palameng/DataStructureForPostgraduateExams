@@ -204,6 +204,33 @@ Unit_3/StackAndQueue.c.s:
 	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.s
 .PHONY : Unit_3/StackAndQueue.c.s
 
+Unit_4/String.o: Unit_4/String.c.o
+
+.PHONY : Unit_4/String.o
+
+# target to build an object file
+Unit_4/String.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_4/String.c.o
+.PHONY : Unit_4/String.c.o
+
+Unit_4/String.i: Unit_4/String.c.i
+
+.PHONY : Unit_4/String.i
+
+# target to preprocess a source file
+Unit_4/String.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_4/String.c.i
+.PHONY : Unit_4/String.c.i
+
+Unit_4/String.s: Unit_4/String.c.s
+
+.PHONY : Unit_4/String.s
+
+# target to generate assembly for a file
+Unit_4/String.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_4/String.c.s
+.PHONY : Unit_4/String.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... Unit_3/StackAndQueue.o"
 	@echo "... Unit_3/StackAndQueue.i"
 	@echo "... Unit_3/StackAndQueue.s"
+	@echo "... Unit_4/String.o"
+	@echo "... Unit_4/String.i"
+	@echo "... Unit_4/String.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/d/CSProjects/Unit_2/LinkedList.c" "/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o"
   "/cygdrive/d/CSProjects/Unit_2/OrderList.c" "/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o"
   "/cygdrive/d/CSProjects/Unit_3/StackAndQueue.c" "/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o"
+  "/cygdrive/d/CSProjects/Unit_4/String.c" "/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles/CSProjects.dir/Unit_4/String.c.o"
   "/cygdrive/d/CSProjects/main.c" "/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles/CSProjects.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
