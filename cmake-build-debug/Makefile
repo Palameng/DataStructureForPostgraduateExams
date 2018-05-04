@@ -231,6 +231,60 @@ Unit_4/String.c.s:
 	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_4/String.c.s
 .PHONY : Unit_4/String.c.s
 
+Unit_5/GeneralizedList.o: Unit_5/GeneralizedList.c.o
+
+.PHONY : Unit_5/GeneralizedList.o
+
+# target to build an object file
+Unit_5/GeneralizedList.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o
+.PHONY : Unit_5/GeneralizedList.c.o
+
+Unit_5/GeneralizedList.i: Unit_5/GeneralizedList.c.i
+
+.PHONY : Unit_5/GeneralizedList.i
+
+# target to preprocess a source file
+Unit_5/GeneralizedList.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.i
+.PHONY : Unit_5/GeneralizedList.c.i
+
+Unit_5/GeneralizedList.s: Unit_5/GeneralizedList.c.s
+
+.PHONY : Unit_5/GeneralizedList.s
+
+# target to generate assembly for a file
+Unit_5/GeneralizedList.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.s
+.PHONY : Unit_5/GeneralizedList.c.s
+
+Unit_6/Tree.o: Unit_6/Tree.c.o
+
+.PHONY : Unit_6/Tree.o
+
+# target to build an object file
+Unit_6/Tree.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o
+.PHONY : Unit_6/Tree.c.o
+
+Unit_6/Tree.i: Unit_6/Tree.c.i
+
+.PHONY : Unit_6/Tree.i
+
+# target to preprocess a source file
+Unit_6/Tree.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_6/Tree.c.i
+.PHONY : Unit_6/Tree.c.i
+
+Unit_6/Tree.s: Unit_6/Tree.c.s
+
+.PHONY : Unit_6/Tree.s
+
+# target to generate assembly for a file
+Unit_6/Tree.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_6/Tree.c.s
+.PHONY : Unit_6/Tree.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -279,6 +333,12 @@ help:
 	@echo "... Unit_4/String.o"
 	@echo "... Unit_4/String.i"
 	@echo "... Unit_4/String.s"
+	@echo "... Unit_5/GeneralizedList.o"
+	@echo "... Unit_5/GeneralizedList.i"
+	@echo "... Unit_5/GeneralizedList.s"
+	@echo "... Unit_6/Tree.o"
+	@echo "... Unit_6/Tree.i"
+	@echo "... Unit_6/Tree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

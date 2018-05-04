@@ -1,0 +1,8 @@
+//
+// Created by Administrator on 2018/5/4.
+//
+
+#ifndef CSPROJECTS_GENERALIZEDLIST_H
+#define CSPROJECTS_GENERALIZEDLIST_H
+
+#endif //CSPROJECTS_GENERALIZEDLIST_H

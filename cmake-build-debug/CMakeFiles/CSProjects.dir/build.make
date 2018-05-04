@@ -177,13 +177,63 @@ CMakeFiles/CSProjects.dir/Unit_4/String.c.o.provides: CMakeFiles/CSProjects.dir/
 CMakeFiles/CSProjects.dir/Unit_4/String.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_4/String.c.o
 
 
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o: CMakeFiles/CSProjects.dir/flags.make
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o: ../Unit_6/Tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o   -c /cygdrive/d/CSProjects/Unit_6/Tree.c
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_6/Tree.c.i"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_6/Tree.c > CMakeFiles/CSProjects.dir/Unit_6/Tree.c.i
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_6/Tree.c.s"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_6/Tree.c -o CMakeFiles/CSProjects.dir/Unit_6/Tree.c.s
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.requires:
+
+.PHONY : CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.requires
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.provides: CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.requires
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.provides.build
+.PHONY : CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.provides
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o
+
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o: CMakeFiles/CSProjects.dir/flags.make
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o: ../Unit_5/GeneralizedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o   -c /cygdrive/d/CSProjects/Unit_5/GeneralizedList.c
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.i"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/CSProjects/Unit_5/GeneralizedList.c > CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.i
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.s"
+	D:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/CSProjects/Unit_5/GeneralizedList.c -o CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.s
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.requires:
+
+.PHONY : CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.requires
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.provides: CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.requires
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.provides.build
+.PHONY : CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.provides
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.provides.build: CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o
+
+
 # Object files for target CSProjects
 CSProjects_OBJECTS = \
 "CMakeFiles/CSProjects.dir/main.c.o" \
 "CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o" \
 "CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o" \
 "CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o" \
-"CMakeFiles/CSProjects.dir/Unit_4/String.c.o"
+"CMakeFiles/CSProjects.dir/Unit_4/String.c.o" \
+"CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o" \
+"CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o"
 
 # External object files for target CSProjects
 CSProjects_EXTERNAL_OBJECTS =
@@ -193,9 +243,11 @@ CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c.o
 CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o
 CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o
 CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_4/String.c.o
+CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o
+CSProjects.exe: CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o
 CSProjects.exe: CMakeFiles/CSProjects.dir/build.make
 CSProjects.exe: CMakeFiles/CSProjects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable CSProjects.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/CSProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable CSProjects.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSProjects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +260,8 @@ CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_2/OrderList.c
 CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_2/LinkedList.c.o.requires
 CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o.requires
 CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_4/String.c.o.requires
+CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o.requires
+CMakeFiles/CSProjects.dir/requires: CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o.requires
 
 .PHONY : CMakeFiles/CSProjects.dir/requires
 
