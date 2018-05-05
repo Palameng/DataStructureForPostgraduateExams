@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CSProjects.dir/Unit_4/String.c.o"
   "CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o"
   "CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o"
+  "CMakeFiles/CSProjects.dir/Unit_7/Graph.c.o"
   "CSProjects.pdb"
   "CSProjects.exe"
   "libCSProjects.dll.a"

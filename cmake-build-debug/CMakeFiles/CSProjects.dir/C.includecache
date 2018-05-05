@@ -37,6 +37,18 @@ StackAndQueue.h
 /cygdrive/d/CSProjects/BaseHeader/base.h
 
 /cygdrive/d/CSProjects/Unit_4/String.c
+String.h
+/cygdrive/d/CSProjects/Unit_4/String.h
+
+/cygdrive/d/CSProjects/Unit_4/String.h
+../BaseHeader/base.h
+/cygdrive/d/CSProjects/BaseHeader/base.h
+
+/cygdrive/d/CSProjects/Unit_5/GeneralizedList.c
+
+/cygdrive/d/CSProjects/Unit_6/Tree.c
+
+/cygdrive/d/CSProjects/Unit_7/Graph.c
 
 /cygdrive/d/CSProjects/main.c
 stdio.h

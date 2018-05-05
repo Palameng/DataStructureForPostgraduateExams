@@ -113,6 +113,12 @@
 		<Unit filename="/cygdrive/d/CSProjects/Unit_6/Tree.h">
 			<Option target="CSProjects"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/CSProjects/Unit_7/Graph.c">
+			<Option target="CSProjects"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CSProjects/Unit_7/Graph.h">
+			<Option target="CSProjects"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/CSProjects/main.c">
 			<Option target="CSProjects"/>
 		</Unit>

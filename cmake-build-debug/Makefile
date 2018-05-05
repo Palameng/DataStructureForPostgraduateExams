@@ -285,6 +285,33 @@ Unit_6/Tree.c.s:
 	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_6/Tree.c.s
 .PHONY : Unit_6/Tree.c.s
 
+Unit_7/Graph.o: Unit_7/Graph.c.o
+
+.PHONY : Unit_7/Graph.o
+
+# target to build an object file
+Unit_7/Graph.c.o:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_7/Graph.c.o
+.PHONY : Unit_7/Graph.c.o
+
+Unit_7/Graph.i: Unit_7/Graph.c.i
+
+.PHONY : Unit_7/Graph.i
+
+# target to preprocess a source file
+Unit_7/Graph.c.i:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_7/Graph.c.i
+.PHONY : Unit_7/Graph.c.i
+
+Unit_7/Graph.s: Unit_7/Graph.c.s
+
+.PHONY : Unit_7/Graph.s
+
+# target to generate assembly for a file
+Unit_7/Graph.c.s:
+	$(MAKE) -f CMakeFiles/CSProjects.dir/build.make CMakeFiles/CSProjects.dir/Unit_7/Graph.c.s
+.PHONY : Unit_7/Graph.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -339,6 +366,9 @@ help:
 	@echo "... Unit_6/Tree.o"
 	@echo "... Unit_6/Tree.i"
 	@echo "... Unit_6/Tree.s"
+	@echo "... Unit_7/Graph.o"
+	@echo "... Unit_7/Graph.i"
+	@echo "... Unit_7/Graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

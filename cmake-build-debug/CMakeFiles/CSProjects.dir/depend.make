@@ -13,7 +13,15 @@ CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o: ../BaseHeader/base.h
 CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o: ../Unit_3/StackAndQueue.c
 CMakeFiles/CSProjects.dir/Unit_3/StackAndQueue.c.o: ../Unit_3/StackAndQueue.h
 
+CMakeFiles/CSProjects.dir/Unit_4/String.c.o: ../BaseHeader/base.h
 CMakeFiles/CSProjects.dir/Unit_4/String.c.o: ../Unit_4/String.c
+CMakeFiles/CSProjects.dir/Unit_4/String.c.o: ../Unit_4/String.h
+
+CMakeFiles/CSProjects.dir/Unit_5/GeneralizedList.c.o: ../Unit_5/GeneralizedList.c
+
+CMakeFiles/CSProjects.dir/Unit_6/Tree.c.o: ../Unit_6/Tree.c
+
+CMakeFiles/CSProjects.dir/Unit_7/Graph.c.o: ../Unit_7/Graph.c
 
 CMakeFiles/CSProjects.dir/main.c.o: ../BaseHeader/base.h
 CMakeFiles/CSProjects.dir/main.c.o: ../Unit_2/LinkedList.h
